@@ -26,8 +26,9 @@ export default function Home() {
         <div>
           <h2>Kategorien</h2>
           <div className="grid grid-cols-3 gap-4 p-8 text-white">
-            <Link className="bg-sky-950 w-18 h-12 rounded-md" href="">
-              Armbars
+            <Link className="bg-sky-950 w-18 h-12 rounded-md" href={`/categories/armlocks`}
+            >
+              Armlocks
             </Link>
             <div className="bg-sky-950 w-18 h-12 rounded-md ">Chokes</div>
             <div className="bg-sky-950 w-18 h-12 rounded-md">Takedowns</div>
