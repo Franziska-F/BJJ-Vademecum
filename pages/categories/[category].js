@@ -4,7 +4,7 @@ export default function Category() {
   return (
     <div>
       <h2>Armblocks/Shoulderlocks</h2>
-      <div className="grid grid-cols-3 gap-4 p-8 text-white">
+      <div className="grid grid-cols-2 gap-4 p-8 text-white">
         <div className="bg-sky-950 w-18 h-12 rounded-md">
           <Link href={`/techniques/1`}> Armbar</Link>
         </div>
