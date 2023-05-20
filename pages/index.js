@@ -5,7 +5,11 @@ export default function Home() {
   return (
     <>
       <header>
-        <div>Navigation</div>
+        <div>
+          Navigation
+          <br />
+          <button>Logout</button>
+        </div>
       </header>
       <main className="p-4">
         <div>
