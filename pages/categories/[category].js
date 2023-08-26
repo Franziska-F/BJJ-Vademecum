@@ -12,7 +12,7 @@ export default function Category() {
           <Link href={`/techniques/1`}> Armbar</Link>
         </div>
         <div className="bg-sky-950 w-18 h-12 rounded-md ">
-          <Link href={`/categories/2`}>Kimura</Link>
+          <Link href={`/techniques/2`}>Kimura</Link>
         </div>
         <div className="bg-sky-950 w-18 h-12 rounded-md">
           <Link href={`/categories/3`}> Omoplata</Link>
